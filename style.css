@@ -1,3 +1,12 @@
+/* google fonts */
+    /* header, footer */
+/* font-family: 'Gloock', serif; */
+    /* profile name */
+/* font-family: 'Cinzel Decorative', cursive; */
+    /* H5 */
+/* font-family: 'Gloock', serif; */
+/* TYPE */
+/* font-family: 'Montserrat', sans-serif; */
 * {
     box-sizing: border-box;
 }
@@ -7,29 +16,104 @@ body {
 .wrapper {
     background: rgb(236, 238, 217);
     opacity: 93%;
-    margin: 60px;
+    margin: 90px;
     padding: 50px;
+}
+/* fonts */
+h1 {
+    font-family: 'Gloock', serif;
+    font-size: 80px;
+    margin-top: -5px;
+    letter-spacing: .2em;
+}
+h2 {
+    margin-top: -40px;
+}
+h3, a {
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .1em;
+    color: #38bd95;
+}
+h5 {
+    font-family: 'Gloock', serif;
+    letter-spacing: .3em;
+}
+span {
+    background-color: #38bd95;
+}
+p, li, .year {
+    font-family: 'Montserrat', sans-serif;;
 }
 /* TOP HEADER */
 .topHeader {
     display: flex;
     justify-content: space-between;
     padding: 15px 15px 0 15px;
+    font-family: 'Cinzel Decorative', serif;
+    border-bottom: 1px solid black;
 }
-
 /* TOP CONTAINER */
 .topContainer {
     display: flex;
     justify-content: space-evenly;
+    background: url(https://cutewallpaper.org/21/animal-crossing-new-leaf-background/Animal-crossing-new-leaf-thanks-GIF-on-GIFER-by-Whitehammer.gif);
     padding: 20px 0 20px 0;
 }
 .profileImg {
-    background: url(https://cutewallpaper.org/21/animal-crossing-new-leaf-background/Animal-crossing-new-leaf-thanks-GIF-on-GIFER-by-Whitehammer.gif);
-    border-radius: 10%;
+    border-radius: 5%;
+    margin-left: 100px;
 }
 .blathers {
-    width: 250px;
-    height: auto;
-    padding: 15px;
+    width: 300px;
 }
-    /* description */
+/* description */
+.description {
+    text-align: right;
+    padding: 20px 10px 0 50px;
+    font-weight: 700;
+}
+.summary {
+    margin-top: 60px;
+}
+
+/* BOTTOM CONTAINER */
+.bottomContainer {
+    display: flex;
+}
+.bottomLeft {
+    border: 1px black;
+    border-style: solid none solid none;
+    width: 600px;
+}
+.uni {
+    font-weight: 900;
+    margin-top: .1em;
+    font-family: 'Cinzel Decorative', cursive;
+    text-decoration: underline;
+}
+/* EXPERIENCE right container */
+.experience {
+    border: 1px black;
+    border-style: solid none solid solid;
+    padding-left: 15px;
+}
+.oneXp {
+    display: flex;
+}
+.year {
+    padding-right: 15px;
+}
+.workplace {
+    margin-top: -2px;
+    margin-bottom: 15px;
+}
+.id {
+    margin-top: -1em;
+    font-weight: 700;
+}
+/* footer */
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
