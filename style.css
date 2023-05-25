@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: url(https://i.pinimg.com/736x/f7/f9/80/f7f98075bff76e4a143565c6384a5884.jpg);
+}
+.wrapper {
+    background: rgb(236, 238, 217);
+    opacity: 93%;
+    margin: 60px;
+    padding: 50px;
+}
+/* TOP HEADER */
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0 15px;
+}
+
+/* TOP CONTAINER */
+.topContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0 20px 0;
+}
+.profileImg {
+    background: url(https://cutewallpaper.org/21/animal-crossing-new-leaf-background/Animal-crossing-new-leaf-thanks-GIF-on-GIFER-by-Whitehammer.gif);
+    border-radius: 10%;
+}
+.blathers {
+    width: 250px;
+    height: auto;
+    padding: 15px;
+}
+    /* description */
