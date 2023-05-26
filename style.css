@@ -27,7 +27,8 @@ h1 {
     letter-spacing: .2em;
 }
 h2 {
-    margin-top: -40px;
+    margin-top: -60px;
+    margin-bottom: 50px;
 }
 h3, a {
     text-align: center;
@@ -35,7 +36,7 @@ h3, a {
     letter-spacing: .1em;
     color: #38bd95;
 }
-h5 {
+h5, .uni {
     font-family: 'Gloock', serif;
     letter-spacing: .3em;
 }
@@ -43,38 +44,35 @@ span {
     background-color: #38bd95;
 }
 p, li, .year {
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
 }
 /* TOP HEADER */
 .topHeader {
     display: flex;
     justify-content: space-between;
-    padding: 15px 15px 0 15px;
-    font-family: 'Cinzel Decorative', serif;
-    border-bottom: 1px solid black;
+    margin-top: -40px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 /* TOP CONTAINER */
 .topContainer {
     display: flex;
     justify-content: space-evenly;
     background: url(https://cutewallpaper.org/21/animal-crossing-new-leaf-background/Animal-crossing-new-leaf-thanks-GIF-on-GIFER-by-Whitehammer.gif);
-    padding: 20px 0 20px 0;
-}
-.profileImg {
-    border-radius: 5%;
-    margin-left: 100px;
+    padding: 20px;
+    border: 1px #38bd95;
+    border-style: solid solid none solid;
 }
 .blathers {
     width: 300px;
+    padding-right: 20px;
 }
 /* description */
 .description {
-    text-align: right;
-    padding: 20px 10px 0 50px;
     font-weight: 700;
+    padding: 50px 80px 0 80px;
 }
 .summary {
-    margin-top: 60px;
 }
 
 /* BOTTOM CONTAINER */
@@ -82,21 +80,20 @@ p, li, .year {
     display: flex;
 }
 .bottomLeft {
-    border: 1px black;
+    border: 1px #38bd95;
     border-style: solid none solid none;
-    width: 600px;
+    width: 900px;
 }
 .uni {
     font-weight: 900;
     margin-top: .1em;
-    font-family: 'Cinzel Decorative', cursive;
     text-decoration: underline;
 }
 /* EXPERIENCE right container */
 .experience {
-    border: 1px black;
+    border: 1px #38bd95;
     border-style: solid none solid solid;
-    padding-left: 15px;
+    padding-left: 27px;
 }
 .oneXp {
     display: flex;
@@ -116,4 +113,7 @@ p, li, .year {
 .contact {
     display: flex;
     justify-content: space-between;
+}
+a:hover {
+    color: #38b4bd;
 }
